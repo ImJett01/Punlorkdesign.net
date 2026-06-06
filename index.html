@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Punlork Design | Graphic Designer</title>
+
+<style>
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+body{
+    font-family:Segoe UI,Arial,sans-serif;
+    background:#f6f7fb;
+    color:#333;
+    line-height:1.6;
+}
+
+.hero{
+    height:100vh;
+    background:linear-gradient(rgba(0,0,0,.55),rgba(0,0,0,.55)),
+    url("images/hero.jpg");
+    background-size:cover;
+    background-position:center;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    text-align:center;
+    color:white;
+    padding:20px;
+}
+
+.hero-content h1{
+    font-size:70px;
+    margin-bottom:15px;
+}
+
+.hero-content p{
+    font-size:22px;
+    margin-bottom:30px;
+}
+
+.btn{
+    display:inline-block;
+    padding:14px 30px;
+    background:#28a745;
+    color:white;
+    text-decoration:none;
+    border-radius:50px;
+    transition:.3s;
+}
+
+.btn:hover{
+    transform:translateY(-3px);
+}
+
+section{
+    max-width:1200px;
+    margin:auto;
+    padding:80px 20px;
+}
+
+.section-title{
+    text-align:center;
+    margin-bottom:50px;
+}
+
+.section-title h2{
+    font-size:40px;
+    color:#222;
+}
+
+.about{
+    text-align:center;
+    max-width:800px;
+    margin:auto;
+}
+
+.services{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+    gap:25px;
+}
+
+.service-card{
+    background:white;
+    padding:30px;
+    border-radius:15px;
+    box-shadow:0 5px 15px rgba(0,0,0,.08);
+    transition:.3s;
+}
+
+.service-card:hover{
+    transform:translateY(-8px);
+}
+
+.portfolio{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(300px,1fr));
+    gap:25px;
+}
+
+.portfolio-item{
+    background:white;
+    border-radius:15px;
+    overflow:hidden;
+    box-shadow:0 5px 15px rgba(0,0,0,.08);
+}
+
+.portfolio-item img{
+    width:100%;
+    display:block;
+}
+
+.portfolio-item h3{
+    padding:15px;
+}
+
+.contact-box{
+    background:white;
+    padding:40px;
+    border-radius:15px;
+    text-align:center;
+    box-shadow:0 5px 15px rgba(0,0,0,.08);
+}
+
+footer{
+    background:#111;
+    color:white;
+    text-align:center;
+    padding:25px;
+}
+
+@media(max-width:768px){
+
+.hero-content h1{
+    font-size:42px;
+}
+
+.hero-content p{
+    font-size:18px;
+}
+
+}
+
+</style>
+</head>
+
+<body>
+
+<section class="hero">
+    <div class="hero-content">
+        <h1>Punlork Design</h1>
+        <p>Graphic Designer • Packaging • Advertising • Branding</p>
+        <a href="#portfolio" class="btn">View Portfolio</a>
+    </div>
+</section>
+
+<section>
+    <div class="section-title">
+        <h2>About Me</h2>
+    </div>
+
+    <div class="about">
+        <p>
+        I'm Sem Punlork, a graphic designer specializing in agricultural product marketing,
+        packaging design, advertising posters, branding, social media content,
+        and product retouching.
+        </p>
+    </div>
+</section>
+
+<section>
+    <div class="section-title">
+        <h2>Services</h2>
+    </div>
+
+    <div class="services">
+
+        <div class="service-card">
+            <h3>Poster Design</h3>
+            <p>Professional product promotion and advertising campaigns.</p>
+        </div>
+
+        <div class="service-card">
+            <h3>Packaging Design</h3>
+            <p>Creative fertilizer, pesticide and FMCG packaging design.</p>
+        </div>
+
+        <div class="service-card">
+            <h3>Brand Identity</h3>
+            <p>Logo design, branding systems and marketing materials.</p>
+        </div>
+
+        <div class="service-card">
+            <h3>Photo Retouching</h3>
+            <p> Photoshop editing and product visualization.</p>
+        </div>
+
+    </div>
+</section>
+
+<section id="portfolio">
+
+    <div class="section-title">
+        <h2>Portfolio</h2>
+    </div>
+
+    <div class="portfolio">
+
+        <div class="portfolio-item">
+            <img src="images/poster1.jpg">
+            <h3>Fertilizer Campaign</h3>
+        </div>
+
+        <div class="portfolio-item">
+            <img src="images/poster2.jpg">
+            <h3>Herbicide Advertisement</h3>
+        </div>
+
+        <div class="portfolio-item">
+            <img src="images/poster3.jpg">
+            <h3>Insecticide Promotion</h3>
+        </div>
+
+        <div class="portfolio-item">
+            <img src="images/poster4.jpg">
+            <h3>Packaging Design</h3>
+        </div>
+
+    </div>
+
+</section>
+
+<section>
+
+    <div class="section-title">
+        <h2>Contact</h2>
+    </div>
+
+    <div class="contact-box">
+
+        <h3>Let's Work Together</h3>
+
+        <br>
+
+        <p>Email: punlorksem111@email.com</p>
+
+        <p>Telegram: @Sem_Punlork</p>
+
+        <p>Phnom Penh, Cambodia</p>
+
+    </div>
+
+</section>
+
+<footer>
+    © 2026 Punlork Design. All Rights Reserved.
+</footer>
+
+</body>
+</html>
